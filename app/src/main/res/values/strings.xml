@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="Salad">Salads</string>
+    <string name="Burger">Burgers</string>
+    <string name="Pizza">Pizzas</string>
+    <string name="Drink">Drinks</string>
+    <string name="txtTotal">Total:</string>
+    <string name="Total">0.00</string>
+    <string name="seeCart">SEE&#160;CART</string>
+    <string name="clear">CLEAR</string>
+    <string name="quantity">QTY:</string>
+    <string name="food_item_img">food_item_img</string>
+    <string name="enter_qty">Enter QTY</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="dollarSign">$</string>
+    <string name="item_name_num_total">Item&#160;Name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Num&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Price&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Total</string>
+    <string name="menu_item">Menu Item</string>
+    <string name="quantityCartHdng">QTY</string>
+    <string name="price">Price</string>
+    <string name="totalCartHdng">Total</string>
+
+
+    <string-array name="burgers">
+        <item>Chicken Burger</item>
+        <item>Beef Burger</item>
+        <item>Veggie Burger</item>
+    </string-array>
+
+    <string-array name="salads">
+        <item>Caprese Salad</item>
+        <item>Caesar Salad</item>
+        <item>Garden Salad</item>
+    </string-array>
+
+    <string-array name="pizza">
+        <item>Pepperoni Pizza</item>
+        <item>Meatlovers Pizza</item>
+        <item>Vegetarian Pizza</item>
+    </string-array>
+
+    <string-array name="drinks">
+        <item>Coca Cola</item>
+        <item>Fanta</item>
+        <item>Water</item>
+    </string-array>
+
+
+</resources>

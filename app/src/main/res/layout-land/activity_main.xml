@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/salad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/salad_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/Salad"
+                app:srcCompat="@drawable/salad" />
+            <TextView
+                android:id="@+id/salad_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Salad"
+                android:textSize="32sp"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:alpha="0.5"
+                android:paddingTop="25dp"
+                android:paddingStart="15dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/burger"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/burger_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/Burger"
+                app:srcCompat="@drawable/burger" />
+
+            <TextView
+                android:id="@+id/burger_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Burger"
+                android:textSize="32sp"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:alpha="0.5"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/pizza_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/Pizza"
+                app:srcCompat="@drawable/pizza" />
+
+            <TextView
+                android:id="@+id/pizza_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Pizza"
+                android:textSize="32sp"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:alpha="0.5"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/drink"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/drink_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/Drink"
+                app:srcCompat="@drawable/drink" />
+            <TextView
+                android:id="@+id/drinks_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Drink"
+                android:textSize="32sp"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:alpha="0.5"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
+

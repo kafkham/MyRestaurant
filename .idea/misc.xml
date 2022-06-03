@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/activity_cart.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/activity_detail.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/activity_food_list.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/activity_main.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/cart2_item2.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout-land/foodlist_item.xml" value="0.2976190476190476" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/activity_cart.xml" value="0.3515625" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/activity_detail.xml" value="0.4" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/activity_food_list.xml" value="0.3515625" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/cart2_item2.xml" value="0.3515625" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/cart_item.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/custom_textview.xml" value="0.3515625" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/custom_textview_cart.xml" value="0.409367396593674" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/foodlist_item.xml" value="0.3515625" />
+        <entry key="..\:/Users/kasra/AndroidStudioProjects/MyRestaurant/app/src/main/res/layout/item_foodlist.xml" value="0.178125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

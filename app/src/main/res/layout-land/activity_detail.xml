@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="horizontal"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        app:srcCompat="@drawable/burger"
+        android:contentDescription="@string/food_item_img" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Chicken Burger"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Juicy beef with cheese, tomatoes, mushrooms, ketchup, mustard."
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="$10.99"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtQuantity"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/quantity"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:autofillHints=""
+                android:ems="3"
+                android:hint="@string/enter_qty"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="#6DFFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.2"
+            android:padding="5dp"
+            android:autoSizeMaxTextSize="18sp"
+            android:text="@string/add_to_cart" />
+
+    </LinearLayout>
+
+</LinearLayout>

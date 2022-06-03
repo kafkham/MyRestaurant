@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtItemName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.4"
+            android:textAlignment="textStart"
+            android:autoSizeMaxTextSize="24sp"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/menu_item"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtItemQTY"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="viewStart"
+            android:autoSizeMaxTextSize="24sp"
+            android:padding="10dp"
+            android:text="@string/quantityCartHdng"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:autoSizeMaxTextSize="24sp"
+            android:padding="10dp"
+            android:text="@string/price"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtItemTotal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:autoSizeMaxTextSize="24sp"
+            android:padding="10dp"
+            android:text="@string/totalCartHdng"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cartListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14">
+
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+
+        <TextView
+            android:id="@+id/cartTxtTotal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#54000000"
+            android:gravity="end"
+            android:paddingEnd="5dp"
+            android:text="@string/txtTotal"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/cartTotal"
+            android:text="@string/Total"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#2C000000"
+            android:gravity="start"
+            android:paddingStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/clearButton"
+            android:text="@string/clear"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#CBFFFFFF"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
